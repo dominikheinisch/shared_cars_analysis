@@ -3,7 +3,7 @@
 ## 1. requirements
 
 - python >= 3.6
-- pypi libs: `requirements.txt`
+- `pip3 install -r requirements.txt`
 
 ## 2. running jupyter-lab
 
@@ -22,3 +22,15 @@ jupyter-lab
 - save data to `'/datasets'`
 - using `jupyter-lab`
     - read and run `full_data.ipynb`
+
+## 4. testing
+
+loader and input data validation / testing
+
+### 4.1 requirements
+ - `pip3 install -r test_requirements.txt`
+
+### 4.2 run
+```
+python3 -m pytest -vs
+```
